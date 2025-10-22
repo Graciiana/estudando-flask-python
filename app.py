@@ -4,7 +4,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 user_glob = None
-1
+
 @app.route("/<nome>")
 def home(nome):
     global user_glob
